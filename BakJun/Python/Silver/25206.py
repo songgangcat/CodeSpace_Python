@@ -13,7 +13,7 @@
 #적어도 한 과목은 등급이 P가 아님이 보장된다.
 
 list_a = ["A+", "A0", "B+", "B0", "C+", "C0", "D+", "D0", "F"]
-list_b = [4.5 - 0.5*i for i in range(9)]  
+list_b = [4.5 - 0.5*i for i in range(8)]+[0.0]  
 
 result = 0.0   
 credit_sum = 0.0  
