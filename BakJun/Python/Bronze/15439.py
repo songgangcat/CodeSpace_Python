@@ -7,3 +7,6 @@ def nPr(n, r):
 
 N = int(input())
 print(nPr(N, 2))
+
+
+#N(N-1)
